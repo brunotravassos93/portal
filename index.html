@@ -15,8 +15,11 @@
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <img src="./img/logo.png" class="img-thumbnail--logo" alt="..." />
+      <div class="container-fluid navDivBig">
+        <div class="navDiv1">
+          <img src="./img/logo.png" class="img-thumbnail--logo" alt="..." />
+        </div>
+
         <button
           class="navbar-toggler"
           type="button"
@@ -28,84 +31,95 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0 ajustes--menu">
-            <li class="nav-item dropdown sm:ms-4">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="dropdownMenuButton1"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Institucional
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                <li><a class="dropdown-item" href="#">Direção</a></li>
-                <li><a class="dropdown-item" href="#">História</a></li>
-                <li><a class="dropdown-item" href="#">Missão / Valores</a></li>
-                <li><a class="dropdown-item" href="#">Organograma</a></li>
-                <li><a class="dropdown-item" href="#">Galeria</a></li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Serviços
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Requerimentos</a></li>
-                <li>
-                  <a class="dropdown-item" href="#"
-                    >Pré-reserva do alojamento</a
-                  >
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Cursos
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li>
-                  <a class="dropdown-item" href="#">Plataforma do Aluno</a>
-                </li>
-                <li><a class="dropdown-item" href="#">Área do Servidor</a></li>
-                <li><a class="dropdown-item" href="#">Editais Abertos</a></li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Banco de Talentos
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Inscrições</a></li>
-              </ul>
-            </li>
+        <div
+          class="collapse navbar-collapse menuBusca"
+          id="navbarSupportedContent"
+        >
+          <div class="options--menu">
+            <ul class="navbar-nav mb-2 mb-lg-0 ajustes--menu">
+              <li class="nav-item dropdown sm:ms-4">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="dropdownMenuButton1"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Institucional
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="#">Direção</a></li>
+                  <li><a class="dropdown-item" href="#">História</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Missão / Valores</a>
+                  </li>
+                  <li><a class="dropdown-item" href="#">Organograma</a></li>
+                  <li><a class="dropdown-item" href="#">Galeria</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Serviços
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Requerimentos</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      >Pré-reserva do alojamento</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Cursos
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li>
+                    <a class="dropdown-item" href="#">Plataforma do Aluno</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Área do Servidor</a>
+                  </li>
+                  <li><a class="dropdown-item" href="#">Editais Abertos</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Banco de Talentos
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Inscrições</a></li>
+                </ul>
+              </li>
 
-            <a class="nav-link" href="#contato" role="button"> Fale Conosco </a>
-          </ul>
+              <a class="nav-link" href="#contato" role="button">
+                Fale Conosco
+              </a>
+            </ul>
+          </div>
           <form class="d-flex">
             <input
               class="form-control me-2"
@@ -120,6 +134,41 @@
         </div>
       </div>
     </nav>
+
+    <div class="slider">
+      <div class="slides">
+        <input type="radio" name="radio-btn" id="radio1" />
+        <input type="radio" name="radio-btn" id="radio2" />
+        <input type="radio" name="radio-btn" id="radio3" />
+        <input type="radio" name="radio-btn" id="radio4" />
+
+        <div class="slide first">
+          <img src="./img/bg.png" alt="Imagem 1" />
+        </div>
+        <div class="slide">
+          <img src="./img/bg2.webp" alt="Imagem 2" />
+        </div>
+        <div class="slide">
+          <img src="./img/logo.png" alt="Imagem 3" />
+        </div>
+        <div class="slide">
+          <img src="./img/bg2.webp" alt="Imagem 4" />
+        </div>
+
+        <div class="navigation-auto">
+          <div class="auto-btn1"></div>
+          <div class="auto-btn2"></div>
+          <div class="auto-btn3"></div>
+          <div class="auto-btn4"></div>
+        </div>
+      </div>
+      <div class="manual-navigation">
+        <label for="radio1" class="manual-btn"></label>
+        <label for="radio2" class="manual-btn"></label>
+        <label for="radio3" class="manual-btn"></label>
+        <label for="radio4" class="manual-btn"></label>
+      </div>
+    </div>
 
     <section>
       <div class="big-div--sections">
@@ -173,5 +222,7 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+
+    <script src="./script.js"></script>
   </body>
 </html>
