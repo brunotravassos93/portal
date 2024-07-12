@@ -310,4 +310,16 @@ footer {
   .manual-navigation {
     width: 300px;
   }
+
+  .navigation-auto {
+    position: relative;
+    width: 800px;
+    margin-top: 360px;
+    display: none;
+    justify-content: center;
+  }
+
+  .navigation-auto div:not(:last-child) {
+    margin-right: 40px;
+  }
 }
